@@ -45,6 +45,10 @@ h2 {
   box-shadow: 0 2px 8px 1px rgb(0 0 100 /0.2);
 }
 
+.output-display__loose {
+  background-color: var(--red);
+}
+
 .output-display p {
   font-size: 2rem;
   margin: 0;
