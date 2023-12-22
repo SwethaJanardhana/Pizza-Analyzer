@@ -50,7 +50,11 @@ function updatePizzaDisplay(pizzaElement, newSize) {
 // Task 3
 // define the function updateOutputColor here
 function updateOutputColor(size1, size2) {
+  console.log("size1.."+size1);
+  console.log("size2.."+size2);
+  
   console.log("size1: "+size1.toString().length);
+
   console.log("size2: "+size2.toString().length);
   outputSection.classList.remove("output-display__loose");
   console.log("Before",size1 > size2);
